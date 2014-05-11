@@ -1,6 +1,6 @@
 {
     "name": "karma-ietester-starter",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "Launcher for IETester",
     "main": "index.js",
     "scripts": {
@@ -29,6 +29,5 @@
     "bugs": {
         "url": "https://github.com/patiernom/karma-ietester-starter/issues"
     },
-    "readme": "ERROR: No README data found!",
     "homepage": "https://github.com/patiernom/karma-ietester-starter"
 }
