@@ -12,14 +12,14 @@ var IETesterBrowser = function(baseBrowserDecorator, args) {
         var self = this,
             command = this._getCommand(),
             i = 0, flag = flags[i],
-            cmdarg = [];
+            cmdArg = [];
 
         for (; flag; i+=1, flag = flags[i]) {
-            cmdarg.push(flag);
-            cmdarg.push(url);
+            cmdArg.push(flag);
+            cmdArg.push(url);
         }
 
-        self._execCommand(command, cmdarg);
+        self._execCommand(command, cmdArg);
     };
 };
 
