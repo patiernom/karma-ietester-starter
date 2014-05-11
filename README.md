@@ -24,15 +24,7 @@ npm install karma-ietester-starter --save-dev
 // karma.conf.js
 module.exports = function(config) {
   config.set({
-    browsers: ['IETester', 'IETester7'],
-
-        // you can define custom flags
-        customLaunchers: {
-          IETester7: {
-            base: 'IETester',
-            flags: ['-ie7']
-          }
-        }
+    browsers: ['IETester'],
   });
 };
 ```
@@ -42,7 +34,15 @@ Or you can simple create a custom version of IETester:
 // karma.conf.js
 module.exports = function(config) {
   config.set({
-    browsers: ['IETester'],
+    browsers: ['IETester', 'IETester7'],
+
+        // you can define custom flags
+        customLaunchers: {
+          IETester7: {
+            base: 'IETester',
+            flags: ['-ie7']
+          }
+        }
   });
 };
 ```
