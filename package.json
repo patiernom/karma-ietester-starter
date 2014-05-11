@@ -24,13 +24,11 @@
         "karma": ">=0.9"
     },
     "devDependencies": {
-        "grunt": "~0.4.1"
+        "grunt": "~0.4.4"
     },
     "bugs": {
         "url": "https://github.com/patiernom/karma-ietester-starter/issues"
     },
     "readme": "ERROR: No README data found!",
-    "homepage": "https://github.com/patiernom/karma-ietester-starter",
-    "_id": "karma-ietester-starter@0.0.1",
-    "_from": "karma-ietester-starter@"
+    "homepage": "https://github.com/patiernom/karma-ietester-starter"
 }
