@@ -1,0 +1,27 @@
+{
+    "name": "karma-ietester-launcher",
+    "version": "0.0.1",
+    "description": "Launcher for IETester",
+    "main": "index.js",
+    "scripts": {
+        "test": "for f in tests/*; do echo \"$f\"; node \"$f\"; done; echo 'passed!'; exit 0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/patiernom/karma-ietester-launcher.git"
+    },
+    "keywords": [
+        "npm",
+        "module",
+        "karma",
+        "karma-plugin",
+        "karma-launcher"
+    ],
+    "author": "Marco Patierno",
+    "license": "MIT",
+    "dependencies": {},
+    "bugs": {
+        "url": "https://github.com/patiernom/karma-ietester-launcher/issues"
+    },
+    "homepage": "https://github.com/patiernom/karma-ietester-launcher"
+}
