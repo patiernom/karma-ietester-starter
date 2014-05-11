@@ -7,7 +7,7 @@ var processName = 'IETester.exe';
 var IETesterBrowser = function(baseBrowserDecorator, args) {
     baseBrowserDecorator(this);
 
-    var flags = args.flags || ['-ie6', '-ie7', '-ie8', '-ie9', '-ie10'];
+    var flags = args.flags || ['-ie'];
     this._start = function(url) {
         var self = this,
             command = this._getCommand(),

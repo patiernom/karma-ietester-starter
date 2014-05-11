@@ -1,6 +1,6 @@
 {
     "name": "karma-ietester-starter",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Launcher for IETester",
     "main": "index.js",
     "scripts": {
