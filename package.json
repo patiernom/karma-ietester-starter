@@ -1,6 +1,6 @@
 {
     "name": "karma-ietester-starter",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Launcher for IETester",
     "main": "index.js",
     "scripts": {
@@ -15,9 +15,14 @@
         "module",
         "karma",
         "karma-plugin",
-        "karma-launcher"
+        "karma-launcher",
+        "ie",
+        "ietester"
     ],
-    "author": "Marco Patierno",
+    "author": {
+        "name": "Marco Patierno",
+        "email": "marco_patierno@msn.com"
+    },
     "license": "MIT",
     "dependencies": {},
     "peerDependencies": {

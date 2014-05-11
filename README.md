@@ -9,7 +9,7 @@ The easiest way is to keep `karma-ietester-starter` as a devDependency in your `
 {
   "devDependencies": {
     "karma": "~0.10",
-    "karma-ietester-starter": "~0.1"
+    "karma-ietester-starter": "0.0.1"
   }
 }
 ```
