@@ -1,14 +1,14 @@
 {
-    "name": "karma-ietester-launcher",
+    "name": "karma-ietester-starter",
     "version": "0.0.1",
     "description": "Launcher for IETester",
     "main": "index.js",
     "scripts": {
-        "test": "for f in tests/*; do echo \"$f\"; node \"$f\"; done; echo 'passed!'; exit 0"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/patiernom/karma-ietester-launcher.git"
+        "url": "https://github.com/patiernom/karma-ietester-starter.git"
     },
     "keywords": [
         "npm",
@@ -20,8 +20,17 @@
     "author": "Marco Patierno",
     "license": "MIT",
     "dependencies": {},
-    "bugs": {
-        "url": "https://github.com/patiernom/karma-ietester-launcher/issues"
+    "peerDependencies": {
+        "karma": ">=0.9"
     },
-    "homepage": "https://github.com/patiernom/karma-ietester-launcher"
+    "devDependencies": {
+        "grunt": "~0.4.1"
+    },
+    "bugs": {
+        "url": "https://github.com/patiernom/karma-ietester-starter/issues"
+    },
+    "readme": "ERROR: No README data found!",
+    "homepage": "https://github.com/patiernom/karma-ietester-starter",
+    "_id": "karma-ietester-starter@0.0.1",
+    "_from": "karma-ietester-starter@"
 }

@@ -1,4 +1,4 @@
-karma-ietester-launcher
+karma-ietester-starter
 =======================
 
-Launcher for IETester.
+Starter for IETester.
