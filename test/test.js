@@ -6,7 +6,7 @@
 var chai = require('chai'),
     expect = chai.expect,
     launcherSrc = require('../index.js'),
-    adapter = require('lib/karma-launcher-tester-adapter.js');
+    adapter = require('./lib/karma-launcher-tester-adapter.js');
 
 describe('IETester launcher for Karma', function() {
     var launcher = adapter(launcherSrc);
