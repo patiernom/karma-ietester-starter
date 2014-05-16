@@ -1,38 +1,40 @@
 {
-    "name": "karma-ietester-starter",
-    "version": "0.0.5",
-    "description": "Launcher for IETester",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/patiernom/karma-ietester-starter.git"
-    },
-    "keywords": [
-        "npm",
-        "module",
-        "karma",
-        "karma-plugin",
-        "karma-launcher",
-        "ie",
-        "ietester"
-    ],
-    "author": {
-        "name": "Marco Patierno",
-        "email": "marco_patierno@msn.com"
-    },
-    "license": "MIT",
-    "dependencies": {},
-    "peerDependencies": {
-        "karma": ">=0.9"
-    },
-    "devDependencies": {
-        "grunt": "~0.4.4"
-    },
-    "bugs": {
-        "url": "https://github.com/patiernom/karma-ietester-starter/issues"
-    },
-    "homepage": "https://github.com/patiernom/karma-ietester-starter"
+  "name": "karma-ietester-starter",
+  "version": "0.0.6",
+  "description": "Launcher for IETester",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patiernom/karma-ietester-starter.git"
+  },
+  "keywords": [
+    "npm",
+    "module",
+    "karma",
+    "karma-plugin",
+    "karma-launcher",
+    "ie",
+    "ietester"
+  ],
+  "author": {
+    "name": "Marco Patierno",
+    "email": "marco_patierno@msn.com"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "karma": ">=0.9"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2",
+    "sinon": "^1.9.1"
+  },
+  "bugs": {
+    "url": "https://github.com/patiernom/karma-ietester-starter/issues"
+  },
+  "homepage": "https://github.com/patiernom/karma-ietester-starter"
 }

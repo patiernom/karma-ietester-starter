@@ -1,6 +1,8 @@
 /**
  * Created by Marco on 11/05/2014.
  */
+"use strict";
+
 var fs = require('fs');
 var processName = 'IETester.exe';
 
