@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/patiernom/karma-ietester-starter.svg?branch=master)](https://travis-ci.org/patiernom/karma-ietester-starter)
 [![Coverage Status](https://coveralls.io/repos/patiernom/karma-ietester-starter/badge.png)](https://coveralls.io/r/patiernom/karma-ietester-starter)
+[![GitHub version](https://badge.fury.io/gh/patiernom%2Fkarma-ietester-starter.svg)](http://badge.fury.io/gh/patiernom%2Fkarma-ietester-starter)
 # karma-ietester-starter
 
 > Launcher for IETester.

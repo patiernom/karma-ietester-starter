@@ -4,3 +4,4 @@ coverage/
 test/
 .travis.yml
 .coveralls.yml
+.gitignore
