@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/patiernom/karma-ietester-starter.svg?branch=master)](https://travis-ci.org/patiernom/karma-ietester-starter)
+
 # karma-ietester-starter
 
 > Launcher for IETester.
