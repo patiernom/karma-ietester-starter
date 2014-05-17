@@ -24,7 +24,9 @@
     "email": "marco_patierno@msn.com"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "coveralls": "^2.10.0"
+  },
   "peerDependencies": {
     "karma": ">=0.9"
   },
