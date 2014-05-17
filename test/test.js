@@ -34,9 +34,4 @@ describe('IETester launcher for Karma', function() {
     it('has launcher prototype.DEFAULT_CMD contain win32 key', function() {
         expect(launcher.adapter.prototype.DEFAULT_CMD).to.include.keys('win32');
     });
-
-    it('has launcher prototype.DEFAULT_CMD.win32 contain IETester.exe string', function() {
-        expect(launcher.adapter.prototype.DEFAULT_CMD.win32).to.contain('IETester.exe');
-    });
-
 });
